@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/gabriel/UFSC/Semestre 23_2/Arquitetura de Sistemas Operacionais /Lista Vpl Phtrheads contador/build",
+  "command": "/usr/bin/clang  -I/opt/homebrew/Cellar/openssl@3/3.1.2/include -I/opt/homebrew/Cellar/googletest/1.14.0/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/nome_do_executavel.dir/main.c.o -c \"/Users/gabriel/UFSC/Semestre 23_2/Arquitetura de Sistemas Operacionais /Lista Vpl Phtrheads contador/main.c\"",
+  "file": "/Users/gabriel/UFSC/Semestre 23_2/Arquitetura de Sistemas Operacionais /Lista Vpl Phtrheads contador/main.c",
+  "output": "CMakeFiles/nome_do_executavel.dir/main.c.o"
+}
+]
