@@ -8,13 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/gabriel/UFSC/Semestre 23_2/Arquitetura de Sistemas Operacionais /Trabalho T/fs.cpp" "CMakeFiles/main.dir/fs.cpp.o" "gcc" "CMakeFiles/main.dir/fs.cpp.o.d"
-  "/Users/gabriel/UFSC/Semestre 23_2/Arquitetura de Sistemas Operacionais /Trabalho T/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
-  "/Users/gabriel/UFSC/Semestre 23_2/Arquitetura de Sistemas Operacionais /Trabalho T/sha256.cpp" "CMakeFiles/main.dir/sha256.cpp.o" "gcc" "CMakeFiles/main.dir/sha256.cpp.o.d"
+  "/Users/gabriel/MyProjects/Arquitetura-de-Sistemas-Operacionais/Code/Trabalho T/fs.cpp" "CMakeFiles/main.dir/fs.cpp.o" "gcc" "CMakeFiles/main.dir/fs.cpp.o.d"
+  "/Users/gabriel/MyProjects/Arquitetura-de-Sistemas-Operacionais/Code/Trabalho T/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
+  "/Users/gabriel/MyProjects/Arquitetura-de-Sistemas-Operacionais/Code/Trabalho T/sha256.cpp" "CMakeFiles/main.dir/sha256.cpp.o" "gcc" "CMakeFiles/main.dir/sha256.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
 set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

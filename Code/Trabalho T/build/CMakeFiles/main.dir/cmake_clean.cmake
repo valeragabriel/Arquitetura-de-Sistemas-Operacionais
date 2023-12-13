@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/gabriel/UFSC/Semestre 23_2/Arquitetura de Sistemas Operacionais /Trabalho T/main"
-  "/Users/gabriel/UFSC/Semestre 23_2/Arquitetura de Sistemas Operacionais /Trabalho T/main.pdb"
+  "/Users/gabriel/MyProjects/Arquitetura-de-Sistemas-Operacionais/Code/Trabalho T/main"
+  "/Users/gabriel/MyProjects/Arquitetura-de-Sistemas-Operacionais/Code/Trabalho T/main.pdb"
   "CMakeFiles/main.dir/fs.cpp.o"
   "CMakeFiles/main.dir/fs.cpp.o.d"
   "CMakeFiles/main.dir/main.cpp.o"

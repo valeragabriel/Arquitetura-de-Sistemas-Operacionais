@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/gabriel/UFSC/Semestre 23_2/Arquitetura de Sistemas Operacionais /Trabalho T
-BuildDirectory: /Users/gabriel/UFSC/Semestre 23_2/Arquitetura de Sistemas Operacionais /Trabalho T/build
+SourceDirectory: /Users/gabriel/MyProjects/Arquitetura-de-Sistemas-Operacionais/Code/Trabalho T
+BuildDirectory: /Users/gabriel/MyProjects/Arquitetura-de-Sistemas-Operacionais/Code/Trabalho T/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: cliente-150-162-180-187.wireless.ufsc.br
+Site: Gabriels-MacBook-Pro.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Darwin-c++
+BuildName: Darwin-clang++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.27.2/bin/cmake" "/Users/gabriel/UFSC/Semestre 23_2/Arquitetura de Sistemas Operacionais /Trabalho T"
-MakeCommand: /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.28.0/bin/cmake" "/Users/gabriel/MyProjects/Arquitetura-de-Sistemas-Operacionais/Code/Trabalho T"
+MakeCommand: /opt/homebrew/Cellar/cmake/3.28.0/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
-CompilerVersion: 14.0.3.14030022
+Compiler: /usr/bin/clang++
+CompilerVersion: 15.0.0.15000100
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
