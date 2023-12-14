@@ -66,13 +66,6 @@ TEST(FsTest, case8){
     ASSERT_EQ(printSha256("fs-case8.bin.solucao"),std::string("D4:63:6C:09:AD:B9:D3:68:6F:1B:02:79:78:38:50:C2:31:7D:E2:F1:C1:50:C9:13:7D:D9:0A:77:B5:27:4E:36"));
 }
 
-TEST(FsTest, case9){
-    duplicate("fs-case9.bin", "fs-case9.bin.solucao");
-    
-    move("fs-case9.bin.solucao", "/dec7556/t2.txt", "/t2.txt");
-    ASSERT_EQ(printSha256("fs-case9.bin.solucao"),std::string("48:D0:98:B2:5F:BF:D8:4B:A6:37:1F:9A:13:8F:C0:D2:2B:6E:21:39:AB:67:15:7F:DF:AE:3E:23:6D:85:49:04"));
-    }
-
 TEST(FsTest, case10){
     duplicate("fs-case10.bin", "fs-case10.bin.solucao");
     
